@@ -1,8 +1,8 @@
 (ns probe.core-test
   (:use [midje.sweet]
-        [probe.core])
-  (:require [clojure.core.async :refer [chan] :as async]
-            [probe.sink :as sink]))
+        [probe.core]))
+
+;; BROKEN!!!
 
 (def history1 (atom nil))
 
